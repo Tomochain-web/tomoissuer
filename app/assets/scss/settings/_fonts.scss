@@ -1,0 +1,169 @@
+//Font famyli setting
+$font-baijam: 'Bai Jamjuree', sans-serif;
+$font-quicksand: 'Quicksand', sans-serif;
+$font-roboto: 'Roboto', sans-serif;
+
+//Fonts tomoissuer Icomoon
+@font-face {
+  font-family: 'tomoissuer';
+  src:  url('../fonts/tomoissuer/tomoissuer.eot?3ap85t');
+  src:  url('../fonts/tomoissuer/tomoissuer.eot?3ap85t#iefix') format('embedded-opentype'),
+    url('../fonts/tomoissuer/tomoissuer.ttf?3ap85t') format('truetype'),
+    url('../fonts/tomoissuer/tomoissuer.woff?3ap85t') format('woff'),
+    url('../fonts/tomoissuer/tomoissuer.svg?3ap85t#tomoissuer') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="tm-"], [class*=" tm-"] {
+  /* use !important to prevent issues with browser extensions that change ../fonts/tomoissuer */
+  font-family: 'tomoissuer' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tm-icon-angle-double-left:before {
+  content: "\e900";
+}
+.tm-icon-angle-double-right:before {
+  content: "\e901";
+}
+.tm-icon-angle-down:before {
+  content: "\e902";
+}
+.tm-icon-angle-left:before {
+  content: "\e903";
+}
+.tm-icon-angle-right:before {
+  content: "\e904";
+}
+.tm-icon-angle-up:before {
+  content: "\e905";
+}
+.tm-icon-email:before {
+  content: "\e906";
+}
+.tm-icon-facebook:before {
+  content: "\e907";
+}
+.tm-icon-github:before {
+  content: "\e908";
+}
+.tm-icon-linkedin:before {
+  content: "\e909";
+}
+.tm-icon-tomox:before {
+  content: "\e90a";
+}
+.tm-icon-telegram:before {
+  content: "\e90b";
+}
+.tm-icon-tomoz:before {
+  content: "\e90c";
+}
+.tm-icon-twiter:before {
+  content: "\e90d";
+}
+.tm-icon-wallet:before {
+  content: "\e90e";
+}
+.tm-icon-reddit:before {
+  content: "\e90f";
+}
+.tm-icon-next-right:before {
+  content: "\e910";
+}
+.tm-icon-startup:before {
+  content: "\e911";
+}
+.tm-icon-checkmark-outline:before {
+  content: "\e912";
+}
+.tm-icon-edit-pencil:before {
+  content: "\e913";
+}
+.tm-icon-search:before {
+  content: "\e914";
+}
+.tm-earth:before {
+  content: "\e915";
+}
+.tm-medium:before {
+  content: "\e916";
+}
+.tm-icon-burn:before {
+  content: "\e917";
+}
+.tm-icon-reissue:before {
+  content: "\e918";
+}
+.tm-three-dots:before {
+  content: "\e919";
+}
+.tm-icon-cog:before {
+  content: "\e91a";
+}
+.tm-icon-info:before {
+  content: "\e91b";
+}
+.tm-icon-tomox2:before {
+  content: "\e91c";
+}
+.tm-icon-tomox3:before {
+  content: "\e91d";
+}
+.tm-icon-tomox1:before {
+  content: "\e91e";
+}
+
+.tm-icon-tomoz-new-white .path1:before {
+  content: "\e91f";
+  color: #fff;
+}
+.tm-icon-tomoz-new-white .path2:before {
+  content: "\e920";
+  color: #00e8b5;
+  margin-left: -1.3505859375em;
+}
+
+.tm-icon-tomoz-new .path1:before {
+  content: "\e921";
+  color: #242828;
+}
+.tm-icon-tomoz-new .path2:before {
+  content: "\e922";
+  color: #00e8b5;
+  margin-left: -1.3505859375em;
+}
+
+.tm-icon-tomox-new .path1:before {
+  content: "\e923";
+  color: #242828;
+}
+.tm-icon-tomox-new .path2:before {
+  content: "\e924";
+  color: #242828;
+  margin-left: -1.2509765625em;
+}
+.tm-icon-tomox-new .path3:before {
+  content: "\e925";
+  color: #00e8b5;
+  margin-left: -1.2509765625em;
+}
+
+.tm-icon-menu:before {
+  content: "\e926";
+}
+
+.tm-add-outline:before {
+  content: "\e927";
+}
