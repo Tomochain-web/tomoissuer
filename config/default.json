@@ -1,0 +1,47 @@
+{
+    "server": {
+        "host": "0.0.0.0",
+        "port": 3001
+    },
+    "logs": {
+        "level": "debug"
+    },
+    "cors": [
+        "https://swagger.tomochain.com",
+        "http://api.etherscan.io"
+    ],
+    "tomoscanUrl": "http://localhost:3003",
+    "tomoscanAPI": "https://scan.tomochain.com",
+    "tomowalletUrl": "https://wallet.testnet.tomochain.com",
+    "tomorelayerAPI": "https://relayer.testnet.tomochain.com",
+    "relayerAuthorityKey": "",
+    "tokenListAPI": "https://raw.githubusercontent.com/tomochain/tokens/master/tokens",
+    "etherscanAPI": "http://api.etherscan.io/",
+    "etherChain": {
+        "rpc": "https://api.infura.io/v1/jsonrpc/mainnet",
+        "networkId": 1,
+        "etherScanURL": "https://etherscan.io/"
+    },
+    "tomobridgeAPI": "",
+    "bridgeAuthorityKey": "",
+    "blockchain": {
+        "rpc": "https://testnet.tomochain.com",
+        "ws": "wss://testnet.tomochain.com/ws",
+        "networkId": 89,
+        "gas": 2000000,
+        "deployPrice": 10000000000000,
+        "issuerAddress": "",
+        "tomoXAddress": "",
+        "bridgeTokenOwners": [],
+        "multisignWallet": "",
+        "defaultRequired": 2,
+        "confirmation": 6
+    },
+    "db": {
+        "uri": "mongodb://mongodb:27017/tomoissuer"
+    },
+    "truffle": {
+        "privateKey": "",
+        "minCapacity": "10"
+    }
+}
